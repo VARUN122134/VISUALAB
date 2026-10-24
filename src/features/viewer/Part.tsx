@@ -99,7 +99,7 @@ export function Part({ id, position = [0, 0, 0], children }: PartProps) {
 
   if (!component) {
     if (process.env.NODE_ENV !== "production") {
-      console.warn(`[visualab] 3D part "${id}" has no matching component in the lesson content.`);
+      console.warn(`[samsee] 3D part "${id}" has no matching component in the lesson content.`);
     }
     return <group>{children}</group>;
   }

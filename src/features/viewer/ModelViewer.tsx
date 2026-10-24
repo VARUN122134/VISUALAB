@@ -106,7 +106,7 @@ class ViewerErrorBoundary extends Component<
   }
 
   componentDidCatch(error: Error, info: ErrorInfo) {
-    console.error("[visualab] 3D viewer failed:", error, info.componentStack);
+    console.error("[samsee] 3D viewer failed:", error, info.componentStack);
   }
 
   render() {

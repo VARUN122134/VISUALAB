@@ -14,9 +14,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { machineId } = await params;
   const machine = getMachine(machineId);
-  if (!machine) return { title: "Machine not found — VISUALAB" };
+  if (!machine) return { title: "Machine not found — SAMSEE" };
   return {
-    title: `${machine.title} — VISUALAB`,
+    title: `${machine.title} — SAMSEE | समझना. सीखना. | Understand. Learn.`,
     description: machine.summary,
   };
 }

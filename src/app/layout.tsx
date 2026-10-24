@@ -4,9 +4,9 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "VISUALAB — Interactive 3D Machine Learning",
+  title: "SAMSEE | समझना. सीखना. — Samajhna. Seekhna.",
   description:
-    "Explore a three-phase induction motor, a synchronous generator and a single-phase transformer through interactive 3D cutaways, guided steps and quizzes.",
+    "SAMSEE — An interactive 3D learning and simulation platform by 5 IDIOTS. Understand. Learn. Future expansion: AI tools, virtual laboratories, scientific simulations, and educational software across all fields.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -15,13 +15,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <header className="site-header">
           <div className="site-header__inner">
-            <Link href="/" className="brand" aria-label="VISUALAB home">
+            <Link href="/" className="brand" aria-label="SAMSEE home">
               <span className="brand-mark" aria-hidden="true">
-                V
+                S
               </span>
               <span className="brand-text">
-                <strong>VISUALAB</strong>
-                <span>Interactive 3D learning</span>
+                <strong>SAMSEE</strong>
+                <span>समझना. सीखना. — Understand. Learn.</span>
               </span>
             </Link>
             <nav className="site-nav" aria-label="Primary">
@@ -39,14 +39,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <footer className="site-footer">
           <div className="site-footer__inner">
             <p>
-              <strong>VISUALAB</strong> — prototype for the Seva First Innovation Challenge. Models
-              are procedural teaching schematics; educational content is draft pending subject
-              review.
+              <strong>SAMSEE</strong> — By <strong>5 IDIOTS</strong>. समझना. सीखना. | Understand. Learn. An interactive 3D learning and simulation platform. Models are procedural teaching schematics; educational content is draft pending subject review.
             </p>
             <p>
-              This is a supplementary learning tool. It does not replace laboratory training,
-              electrical safety procedures or supervised practical work.
+              Future expansion: AI tools, virtual laboratories, scientific simulations, and educational software across all fields. This is a supplementary learning tool. It does not replace laboratory training, electrical safety procedures or supervised practical work.
             </p>
+            <p>© 2026 5 IDIOTS | SAMSEE — समझना. सीखना. | Understand. Learn.</p>
           </div>
         </footer>
       </body>
